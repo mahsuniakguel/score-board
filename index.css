@@ -1,0 +1,61 @@
+body {
+    margin: 20px 0px;
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #13315c;
+    color: white;
+    font-size: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    color: red;
+    align-items: center;
+    font-size: 210px;
+    font-weight: bold;
+}
+
+.count {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+button {
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px; 
+    background-color: #33415c;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button.new-game {
+    margin: 40px auto;
+    display: flex;
+    background-color: #001233;
+    color: white;
+}
+
+button.new-game:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    margin: 40px auto;
+    display: flex;
+}

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1>HOME</h1>
+                <div class="box" id="home-team"></div>
+                <div class="count">
+                    <button onclick="incrementHomeByOne()">+1</button>
+                    <button onclick="incrementHomeByTwo()">+2</button>
+                    <button onclick="incrementHomeByThree()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h1>GUEST</h1>
+                <div class="box" id="guest-team"></div>
+                <div class="count">
+                    <button onclick="incrementGuestByOne()">+1</button>
+                    <button onclick="incrementGuestByTwo()">+2</button>
+                    <button onclick="incrementGuestByThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button class="new-game endBtn" onclick="resetGame()">New Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>
